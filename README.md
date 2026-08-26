@@ -26,19 +26,18 @@
   * *(Manuscript in preparation · Private code and draft available upon request)*
 
 #### ⚡ **Efficient LLM Inference & Systems**
-* **Speculative Decoding on MoE** `Mistral-7B` `Mixtral-8x7B MoE` `QLoRA`
+* **Speculative Decoding on MoE** [**repository**](https://github.com/FedeCarollo/mistral_experiments/tree/main/speculative_decoding) `Mistral-7B` `Mixtral-8x7B MoE` `QLoRA`
   * Implemented speculative sampling pairing Mistral-7B (Draft) with Mixtral-8x7B (Target) using a custom CE + KL divergence objective.
   * Achieved **1.45x wall-clock speedup** on GSM8K and HumanEval while profiling memory bandwidth bottlenecks and MoE routing overhead.
 * **Edge LLM Inference Engine from Scratch** `Rust` `Candle` `SIMD`
-  * Built an end-to-end LLaMA inference engine in pure Rust from scratch (RoPE attention, RMSNorm, SwiGLU) running on constrained edge devices (<4GB VRAM).
+  * Built an end-to-end LLaMA inference engine in pure Rust from scratch (RoPE attention, RMSNorm, SwiGLU) running on constrained edge devices.
 
 #### 📈 **Resilience AI, Forecasting & Statistical Modeling**
 * **GridShift — Huawei Tech Arena** `PyTorch` `Darts` `Optuna` `uv` `Private Repo`
   * Engineering an end-to-end multi-horizon risk forecasting pipeline ($P \in [0, 1]$) for AI Data Centers (AIDC) under extreme weather events and 3 incoming-feeder topologies.
   * Formulated custom Compound Poisson-Gamma **Tweedie NLL objectives** ($p \in (1,2)$) and fault-window chunking to solve severe zero-inflation on regional outage spikes.
-  * Implemented a modular registry architecture supporting custom Darts wrappers (**iTransformer**, **TiDE**, gradient-boosted trees) with automated Optuna HP search and zero-leakage temporal normalization.
 * [**doraemon_calibration**](https://github.com/FedeCarollo/doraemon_calibration) `PyTorch` `Conformal Prediction` `Paper Included`
-  * Complete framework for distribution-free uncertainty estimation and predictive calibration. Includes the full academic paper, benchmarking suite, and reproducible evaluation pipelines.
+  * Complete framework for distribution-free uncertainty estimation and predictive calibration. Includes the full academic paper and related code.
 
 ---
 
