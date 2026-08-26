@@ -32,7 +32,7 @@
   * *(Manuscript in preparation · Full thesis & draft available upon request)*
 
 #### 📈 **Resilience AI, Forecasting & Statistical Modeling**
-* **GridShift — Huawei Tech Arena** `PyTorch` `Darts` `Optuna` `uv` `Private Repo`
+* **GridShift — Huawei Tech Arena** `PyTorch` `Tree Models` `Optuna` `Competition`
   * Engineering an end-to-end multi-horizon risk forecasting pipeline ($P \in [0, 1]$) for AI Data Centers (AIDC) under extreme weather events and 3 incoming-feeder topologies.
   * Formulated custom Compound Poisson-Gamma **Tweedie NLL objectives** ($p \in (1,2)$) and fault-window chunking to solve severe zero-inflation on regional outage spikes.
 * [**doraemon_calibration**](https://github.com/FedeCarollo/doraemon_calibration) `PyTorch` `Conformal Prediction` `Paper Included`
@@ -41,7 +41,7 @@
 ---
 
 ### 🏆 Selected Achievements
-* 🥇 **Global Winner — GitHub "For the Love of Code" Hackathon (2025):** Built *Jukebox CLI*, a high-performance terminal audio engine written in Rust.
+* 🥇 **Global Winner — GitHub "For the Love of Code" Hackathon (2025):** Built [**Jukebox CLI**](https://github.com/FedeCarollo/jukebox-cli), a high-performance terminal audio engine written in Rust.
 * 🎓 **Academic Excellence:** Double 110/110 Cum Laude (B.Sc. in Computer Engineering & M.Sc. in AI), 4.0/4.0 GPA (29.9/30 avg).
 
 ---
