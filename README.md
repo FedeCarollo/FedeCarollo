@@ -24,7 +24,7 @@
   * Built an end-to-end LLaMA inference engine in pure Rust from scratch (RoPE attention, RMSNorm, SwiGLU) running on constrained edge devices.ù
 
 
-#### 🎯 **Statistical Rigor & Conformal Calibration**
+#### 🎯 **Statistical Rigor & Conformal Calibration (Thesis)**
 
 * **Resolving Observation Lag in Multi-Step Conformal Prediction** `PyTorch` `NexCP` `Theory & Systems` `Manuscript in Review`
   * Formulated an online, asynchronous calibration framework using a **Matrix-Based Pending Queue with In-Place Buffer Propagation** to resolve the multi-step ($H$-step ahead) observation lag without lookahead bias.
@@ -34,9 +34,9 @@
 
 * **Adaptive Conformal Calibration for Non-Stationary Multi-Step Forecasting** `M.Sc. Thesis` `Darts` `PyTorch`
   * Comprehensive extension of Reservoir Conformal Prediction (**ResCP**) integrating topological ESN memories, dynamic ESS-based adaptive blending, and structural safety floors against interval collapse.
-  * Developed a streaming **post-hoc risk controller** (inspired by CRC and ACI feedback loops) that dynamically adjusts quantiles to satisfy asymmetric business cost targets during extreme concept drift (COVID-19 shock)[cite: 3].
-  * Scaled benchmark across 26 real-world energy datasets and deep backbones (iTransformer, TSMixer, TiDE), achieving a **+15.4% mean IWS improvement** over uncalibrated baselines and outperforming standard CQR in 51/78 configurations[cite: 3].
-  * *(Full thesis text & experimental codebase available upon request)*[cite: 3]
+  * Developed a streaming **post-hoc risk controller** (inspired by CRC and ACI feedback loops) that dynamically adjusts quantiles to satisfy asymmetric business cost targets during extreme concept drift (COVID-19 shock).
+  * Scaled benchmark across 26 real-world energy datasets and deep backbones (iTransformer, TSMixer, TiDE), achieving a **+15.4% mean IWS improvement** over uncalibrated baselines and outperforming standard CQR in 51/78 configurations.
+  * *(Full thesis text & experimental codebase available upon request)*
 
 #### 📈 **Resilience AI, Forecasting & Statistical Modeling**
 * **GridShift — Huawei Tech Arena** `PyTorch` `Tree Models` `Optuna` `Competition`
