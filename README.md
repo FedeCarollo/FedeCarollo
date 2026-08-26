@@ -21,6 +21,13 @@
   * Achieved **1.45x wall-clock speedup** on GSM8K and HumanEval while profiling memory bandwidth bottlenecks and MoE routing overhead.
 * **Edge LLM Inference Engine from Scratch** `Rust` `Candle` `Inference`
   * Built an end-to-end LLaMA inference engine in pure Rust from scratch (RoPE attention, RMSNorm, SwiGLU) running on constrained edge devices.
+  * 
+#### 🎯 **Statistical Rigor & Conformal Calibration**
+* **Resolving Observation Lag in Multi-Step Conformal Prediction** `PyTorch` `NexCP` `Manuscript in Review`
+  * Formalized a causal calibration framework for online multi-step ($H$-step ahead) forecasting using an asynchronous Matrix-Based Pending Queue with In-Place Buffer Propagation, eliminating lookahead bias.
+  * Derived explicit horizon-specific marginal coverage bounds grounded in the Non-Exchangeable Conformal Prediction (NexCP) theorem under temporal non-stationarity and observation lag.
+  * Extended Reservoir Conformal Prediction (ResCP) with ESS-based adaptive blending and safety floors, achieving a +15.4% average IWS improvement across hundreds of dataset-model settings
+  * *(Manuscript in preparation · Full thesis & draft available upon request)*
 
 #### 📈 **Resilience AI, Forecasting & Statistical Modeling**
 * **GridShift — Huawei Tech Arena** `PyTorch` `Darts` `Optuna` `uv` `Private Repo`
