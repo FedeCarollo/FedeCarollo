@@ -7,16 +7,6 @@
 
 ---
 
-### 🔬 Core Pillars
-
-| 🚀 Distributed ML & Systems | 🎯 Uncertainty & Calibration |
-| :--- | :--- |
-| **Diffusion Transformers (DiTs)**, **MoE**, Multi-GPU HPC scaling, FSDP & Accelerate | **Conformal Prediction**, Distribution-Free Risk Control, Extreme Value Modeling |
-| **⚡ Low-Level & Edge Engineering** | **📈 Extreme Event & Time Series AI** |
-| Custom Inference Engines in **Rust**, **Candle**, Memory bandwidth & RoPE optimization | Non-stationary forecasting, Zero-inflated Tweedie losses, iTransformer, TiDE |
-
----
-
 ### 🚀 Key Projects & Selected Research
 
 #### 🧬 **Distributed Generative Models & HPC**
