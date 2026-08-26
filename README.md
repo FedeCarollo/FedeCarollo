@@ -38,13 +38,18 @@
   * Scaled benchmark across 26 real-world energy datasets and deep backbones (iTransformer, TSMixer, TiDE), achieving a **+15.4% mean IWS improvement** over uncalibrated baselines and outperforming standard CQR in 51/78 configurations.
   * *(Full thesis text & experimental codebase available upon request)*
 
+#### 🤖 **Reinforcement Learning & Sim-to-Real Transfer**
+* [**DORAEMON calibration**](https://github.com/FedeCarollo/doraemon_calibration) `PyTorch` `Deep RL` `MuJoCo` `Sim-to-Real` `Paper Included`
+  * Formulated a two-phase Sim-to-Real framework decoupling robust generalized pre-training from gradient-free test-time adaptation for robotic locomotion (Hopper-v4, Walker2d-v4).
+  * Trained contextual policies ($\pi_\theta(a|s, \xi)$) under a constrained entropy-maximization curriculum (**DORAEMON**) with analytical Beta distributions and KL trust-region constraints to mitigate catastrophic forgetting.
+  * Implemented test-time System Identification via the **Cross-Entropy Method (CEM)** to recover hidden physical parameters ($\xi$) without online gradient updates, resolving dynamic aliasing (mass-gravity disentanglement).
+  * Calibrated policies recovered near-optimal performance in extreme outlier environments where static baselines collapsed (e.g., reward improvement from ~1200 to ~2600 in Walker2d-v4).
+
+
 #### 📈 **Resilience AI, Forecasting & Statistical Modeling**
 * **GridShift — Huawei Tech Arena** `PyTorch` `Tree Models` `Optuna` `Competition`
   * Engineering an end-to-end multi-horizon risk forecasting pipeline ($P \in [0, 1]$) for AI Data Centers (AIDC) under extreme weather events and 3 incoming-feeder topologies.
   * Formulated custom Compound Poisson-Gamma **Tweedie NLL objectives** ($p \in (1,2)$) and fault-window chunking to solve severe zero-inflation on regional outage spikes.
-* [**doraemon_calibration**](https://github.com/FedeCarollo/doraemon_calibration) `PyTorch` `Conformal Prediction` `Paper Included`
-  * Complete framework for distribution-free uncertainty estimation and predictive calibration in Sim-To-Real RL settings. Includes the full academic paper and related code.
-
 ---
 
 ### 🏆 Selected Achievements
