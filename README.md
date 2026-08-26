@@ -50,8 +50,8 @@
 * **GridShift — Huawei Tech Arena** `PyTorch` `Tree Models` `Optuna` `Competition`
   * Engineering an end-to-end multi-horizon risk forecasting pipeline ($P \in [0, 1]$) for AI Data Centers (AIDC) under extreme weather events and 3 incoming-feeder topologies.
   * Formulated custom Compound Poisson-Gamma **Tweedie NLL objectives** ($p \in (1,2)$) and fault-window chunking to solve severe zero-inflation on regional outage spikes.
----
 
+#### 🔌Systems & Low-Level Engineering
 * [**Remote Filesystem**](https://github.com/FedeCarollo/remote_fs) `Rust` `FUSE` `TypeScript` `Systems Programming`
   * High-performance remote filesystem implementation leveraging **FUSE** in pure Rust. Handles low-level POSIX filesystem operations, asynchronous I/O caching, and robust network RPC synchronization.
 
