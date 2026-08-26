@@ -19,7 +19,7 @@
 * [**Speculative Decoding on MoE**](https://github.com/FedeCarollo/mistral_experiments/tree/main/speculative_decoding) `Mistral-7B` `Mixtral-8x7B MoE` `QLoRA`
   * Implemented speculative sampling pairing Mistral-7B (Draft) with Mixtral-8x7B (Target) using a custom CE + KL divergence objective.
   * Achieved **1.45x wall-clock speedup** on GSM8K and HumanEval while profiling memory bandwidth bottlenecks and MoE routing overhead.
-* **Edge LLM Inference Engine from Scratch** `Rust` `Candle` `SIMD`
+* **Edge LLM Inference Engine from Scratch** `Rust` `Candle` `Inference`
   * Built an end-to-end LLaMA inference engine in pure Rust from scratch (RoPE attention, RMSNorm, SwiGLU) running on constrained edge devices.
 
 #### 📈 **Resilience AI, Forecasting & Statistical Modeling**
