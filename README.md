@@ -20,11 +20,12 @@
 * [**Speculative Decoding on MoE**](https://github.com/FedeCarollo/mistral_experiments/tree/main/speculative_decoding) `Mistral-7B` `Mixtral-8x7B MoE` `QLoRA`
   * Implemented speculative sampling pairing Mistral-7B (Draft) with Mixtral-8x7B (Target) using a custom CE + KL divergence objective.
   * Achieved **1.45x wall-clock speedup** on GSM8K and HumanEval while profiling memory bandwidth bottlenecks and MoE routing overhead.
-* **Edge LLM Inference Engine from Scratch** `Rust` `Candle` `Inference`
-  * Built an end-to-end LLaMA inference engine in pure Rust from scratch (RoPE attention, RMSNorm, SwiGLU) running on constrained edge devices.
-  * 
+* [**Edge LLM Inference Engine from Scratch**](https://github.com/FedeCarollo/RustLLM_serve) `Rust` `Candle` `Inference`
+  * Built an end-to-end LLaMA inference engine in pure Rust from scratch (RoPE attention, RMSNorm, SwiGLU) running on constrained edge devices.ù
+
+
 #### 🎯 **Statistical Rigor & Conformal Calibration**
-* **Resolving Observation Lag in Multi-Step Conformal Prediction** `PyTorch` `NexCP` `Manuscript in Review`
+* **Resolving Observation Lag in Multi-Step Conformal Prediction** `PyTorch` `NexCP` `Conformal Prediction` `Manuscript in Review`
   * Formalized a causal calibration framework for online multi-step ($H$-step ahead) forecasting using an asynchronous Matrix-Based Pending Queue with In-Place Buffer Propagation, eliminating lookahead bias.
   * Derived explicit horizon-specific marginal coverage bounds grounded in the Non-Exchangeable Conformal Prediction (NexCP) theorem under temporal non-stationarity and observation lag.
   * Extended Reservoir Conformal Prediction (ResCP) with ESS-based adaptive blending and safety floors, achieving a +15.4% average IWS improvement across hundreds of dataset-model settings
@@ -35,7 +36,7 @@
   * Engineering an end-to-end multi-horizon risk forecasting pipeline ($P \in [0, 1]$) for AI Data Centers (AIDC) under extreme weather events and 3 incoming-feeder topologies.
   * Formulated custom Compound Poisson-Gamma **Tweedie NLL objectives** ($p \in (1,2)$) and fault-window chunking to solve severe zero-inflation on regional outage spikes.
 * [**doraemon_calibration**](https://github.com/FedeCarollo/doraemon_calibration) `PyTorch` `Conformal Prediction` `Paper Included`
-  * Complete framework for distribution-free uncertainty estimation and predictive calibration. Includes the full academic paper and related code.
+  * Complete framework for distribution-free uncertainty estimation and predictive calibration in Sim-To-Real RL settings. Includes the full academic paper and related code.
 
 ---
 
