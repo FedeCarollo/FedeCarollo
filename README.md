@@ -25,11 +25,18 @@
 
 
 #### 🎯 **Statistical Rigor & Conformal Calibration**
-* **Resolving Observation Lag in Multi-Step Conformal Prediction** `PyTorch` `NexCP` `Conformal Prediction` `Manuscript in Review`
-  * Formalized a causal calibration framework for online multi-step ($H$-step ahead) forecasting using an asynchronous Matrix-Based Pending Queue with In-Place Buffer Propagation, eliminating lookahead bias.
-  * Derived explicit horizon-specific marginal coverage bounds grounded in the Non-Exchangeable Conformal Prediction (NexCP) theorem under temporal non-stationarity and observation lag.
-  * Extended Reservoir Conformal Prediction (ResCP) with ESS-based adaptive blending and safety floors, achieving a +15.4% average IWS improvement across hundreds of dataset-model settings
-  * *(Manuscript in preparation · Full thesis & draft available upon request)*
+
+* **Resolving Observation Lag in Multi-Step Conformal Prediction** `PyTorch` `NexCP` `Theory & Systems` `Manuscript in Review`
+  * Formulated an online, asynchronous calibration framework using a **Matrix-Based Pending Queue with In-Place Buffer Propagation** to resolve the multi-step ($H$-step ahead) observation lag without lookahead bias.
+  * Derived explicit finite-sample per-step marginal coverage guarantees grounded in the **Non-Exchangeable Conformal Prediction (NexCP)** theorem under temporal non-stationarity.
+  * Demonstrated consistent marginal coverage stability across classical CQR, time-decay NexCP, and state-dependent ResCQR over standard time-series benchmarks (ETTh1/2, Traffic, Weather).
+  * *(Manuscript under review · Full paper draft available upon request)*
+
+* **Adaptive Conformal Calibration for Non-Stationary Multi-Step Forecasting** `M.Sc. Thesis` `Darts` `PyTorch`
+  * Comprehensive extension of Reservoir Conformal Prediction (**ResCP**) integrating topological ESN memories, dynamic ESS-based adaptive blending, and structural safety floors against interval collapse.
+  * Developed a streaming **post-hoc risk controller** (inspired by CRC and ACI feedback loops) that dynamically adjusts quantiles to satisfy asymmetric business cost targets during extreme concept drift (COVID-19 shock)[cite: 3].
+  * Scaled benchmark across 26 real-world energy datasets and deep backbones (iTransformer, TSMixer, TiDE), achieving a **+15.4% mean IWS improvement** over uncalibrated baselines and outperforming standard CQR in 51/78 configurations[cite: 3].
+  * *(Full thesis text & experimental codebase available upon request)*[cite: 3]
 
 #### 📈 **Resilience AI, Forecasting & Statistical Modeling**
 * **GridShift — Huawei Tech Arena** `PyTorch` `Tree Models` `Optuna` `Competition`
