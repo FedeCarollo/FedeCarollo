@@ -10,10 +10,11 @@
 ### 🚀 Key Projects & Selected Research
 
 #### 🧬 **Distributed Generative Models & HPC**
-* **Histomorph — WSI Virtual Staining with DiTs** `PyTorch` `Accelerate` `HPC Multi-GPU`
+* **Histomorph — WSI Virtual Staining with DiTs** `PyTorch` `Accelerate` `HPC Multi-GPU` `Work in Progress`
   * Scaled distributed training of Diffusion Transformers (DiTs) conditioned on histopathology ViT foundation models across a multi-GPU HPC cluster.
-  * Optimized custom dataloaders and cross-node gradient synchronization across 100k+ gigapixel pathology tiles.
-  * *(Manuscript in preparation · Private code and draft available upon request)*
+  * Commissioned by academic faculty to extend previous coursework into an end-to-end WSI-to-WSI translation framework targeting formal publication.
+  * Scaled data pipelines to 100k+ pathology tiles, optimizing custom high-throughput dataloaders and cross-node gradient synchronization.
+  * *(Manuscript in preparation for venue submission · Private draft & architecture available upon request)*
 
 #### ⚡ **Efficient LLM Inference & Systems**
 * [**Speculative Decoding on MoE**](https://github.com/FedeCarollo/mistral_experiments/tree/main/speculative_decoding) `Mistral-7B` `Mixtral-8x7B MoE` `QLoRA`
