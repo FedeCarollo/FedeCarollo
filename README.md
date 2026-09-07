@@ -2,7 +2,7 @@
 ### **Applied Scientist & AI Researcher** | *Distributed Systems, Generative AI & Uncertainty Quantification*
 
 📍 **Torino, Italy** · 🌍 **Open to Relocation (EU)**  
-🎓 **M.Sc. in AI & Data Analytics (Top 1% / 4.0 GPA, 110L)** @ *Politecnico di Torino*  
+🎓 **M.Sc. in AI & Data Analytics (4.0 GPA, 110L)** @ *Politecnico di Torino*  
 📫 `posta.fedcar@gmail.com` · [LinkedIn](https://linkedin.com/in/federico-carollo) · [GitHub](https://github.com/FedeCarollo)
 
 ---
