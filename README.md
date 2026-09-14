@@ -20,8 +20,9 @@
 * [**Speculative Decoding on MoE**](https://github.com/FedeCarollo/speculative_decoding) `Mistral-7B` `Mixtral-8x7B MoE` `QLoRA`
   * Implemented speculative sampling pairing Mistral-7B (Draft) with Mixtral-8x7B (Target) using a custom CE + KL divergence objective.
   * Achieved **1.45x wall-clock speedup** on GSM8K and HumanEval while profiling memory bandwidth bottlenecks and MoE routing overhead.
-* [**Edge LLM Inference Engine from Scratch**](https://github.com/FedeCarollo/RustLLM_serve) `Rust` `Candle` `Inference`
-  * Built an end-to-end LLaMA inference engine in pure Rust from scratch (RoPE attention, RMSNorm, SwiGLU) running on constrained edge devices.ù
+* [**Custom LLM Inference Engine from Scratch**](https://github.com/FedeCarollo/RustLLM_serve) `Rust` `Candle` `CUDA`
+  * Engineered an end-to-end LLaMA inference engine in pure Rust with manually implemented tensor primitives for the full forward pass.
+  * Achieved up to 14x decoding speedup on CUDA GPUs by designing a thread-safe, pre-allocated KV Cache with in-place updates.
 
 
 #### 🎯 **Statistical Rigor & Conformal Calibration (Thesis)**
