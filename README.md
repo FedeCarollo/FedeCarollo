@@ -69,7 +69,6 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/CUDA%20%2F%20HPC-76B900?style=flat-square&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Distributed%20Training-FSDP%20%2F%20Accelerate-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Linux%20%2F%20Slurm-FCC624?style=flat-square&logo=linux&logoColor=black" />
