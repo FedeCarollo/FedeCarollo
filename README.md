@@ -14,6 +14,7 @@
   * Scaled distributed training of Diffusion Transformers (DiTs) conditioned on histopathology ViT foundation models across a multi-GPU HPC cluster.
   * Commissioned by academic faculty to extend previous coursework into an end-to-end WSI-to-WSI translation framework targeting formal publication.
   * Scaled data pipelines to 100k+ pathology tiles, optimizing custom high-throughput dataloaders and cross-node gradient synchronization.
+  * Provided a public [PyPI Package](https://github.com/FedeCarollo/wsi-tile-processor) for WSI tile-based processing.
   * *(Manuscript in preparation for venue submission · Private draft & architecture available upon request)*
 
 #### ⚡ **Efficient LLM Inference & Systems**
