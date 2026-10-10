@@ -1,5 +1,5 @@
 # Hi, I'm Federico Carollo 👋
-### **Applied Scientist & AI Researcher** | *Distributed Systems, Generative AI & Uncertainty Quantification*
+### **AI Research Engineer** | *Distributed Systems, Generative AI & Uncertainty Quantification*
 
 📍 **Torino, Italy** · 🌍 **Open to Relocation (EU)**  
 🎓 **M.Sc. in AI & Data Analytics (4.0 GPA, 110L)** @ *Politecnico di Torino*  
